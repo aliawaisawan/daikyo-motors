@@ -126,7 +126,7 @@ function Footer() {
                   </div>
                   <h4 className="ltn__blog-title">
                     <a href="mailto:aaa@aa.com">
-                      example@example.com
+                      aaaa@example.com
                     </a>
                   </h4>
                 </div>
@@ -163,7 +163,7 @@ function Footer() {
                   <div className="get-support-info">
                     <h6>Copyrights @ 2024</h6>
                     <h4>
-                      Daikyo Motors pvt Limited <span className="current-year"></span>
+                      Daikyo Motors pvt Limited  <span className="current-year"></span>
                     </h4>
                   </div>
                 </div>
