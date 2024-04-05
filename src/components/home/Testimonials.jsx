@@ -120,20 +120,7 @@ function Testimonials() {
                 </div>
               </div>
             </Slider>
-            <ul className="ltn__testimonial-quote-menu d-none d-lg-block">
-              <li>
-                <img src="assets/img/testimonial/3.jpg" alt="Quote image1" />
-              </li>
-              <li>
-                <img src="assets/img/testimonial/4.jpg" alt="Quote image2" />
-              </li>
-              <li>
-                <img src="assets/img/testimonial/6.jpg" alt="Quote image3" />
-              </li>
-              <li>
-                <img src="assets/img/testimonial/1.jpg" alt="Quote image4" />
-              </li>
-            </ul>
+           
           </div>
         </div>
       </div>

@@ -7606,7 +7606,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-size: auto;
   background-position: top center;
   background-repeat: no-repeat; }
-
+.bg-contact {
+  background-image: url('../img/daikyo/contact-us.jpg');
+}
 .nice-select .option {
   font-weight: 600; }
 
@@ -11991,6 +11993,10 @@ input.cart-plus-minus-box {
   width: 100%;
   height: 100%;
   pointer-events: none;
+  background-image: url('../img/daikyo//hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: -99; }
 
 /* ----------------------------------------------------
@@ -12698,6 +12704,11 @@ input.cart-plus-minus-box {
     font-size: 14px; }
   [type="submit"].btn {
     padding: 12px 30px; } }
+
+    .hero-img {
+      height: 100%;
+      width: 100%;
+    }
 
 /* ----------------------------------------------------
     END

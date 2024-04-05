@@ -2,21 +2,20 @@ import React from "react";
 
 function WhyChoose() {
   return (
-    <div className="ltn__why-choose-us-area section-bg-1 pt-120 pb-120">
+    <div id='parts-machinery' className="ltn__why-choose-us-area section-bg-1 pt-120 pb-120">
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
             <div className="why-choose-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  Why Choose Us
+                  Extra Benefits from Daikyo
                 </h6>
                 <h1 className="section-title">
-                  Safety Is Our First Priority<span>.</span>
+                We also deal in heavy machinery and car parts<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  We deal in all sorts of parts and heavy machinery, anything can be provided upon request!
                 </p>
               </div>
               <div className="row">
@@ -28,13 +27,11 @@ function WhyChoose() {
                     <div className="why-choose-us-feature-brief">
                       <h3>
                         <a href="service-details.html">
-                          Anytime Get Your Service
+                          Car Parts
                         </a>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor ut labore et dolore magna aliqua.
-                        Ut enim ad minim
+                        If you need a specific part replaced of your car during and after the import, Daikyo motors is here to assist!
                       </p>
                     </div>
                   </div>
@@ -47,13 +44,11 @@ function WhyChoose() {
                     <div className="why-choose-us-feature-brief">
                       <h3>
                         <a href="service-details.html">
-                          Hardcore Repair Service
+                          Heavy Machinery
                         </a>
                       </h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor ut labore et dolore magna aliqua.
-                        Ut enim ad minim
+                        All sort of heavy machinery can be imported upon request from you with the help of Daikyo Motors
                       </p>
                     </div>
                   </div>
@@ -64,10 +59,10 @@ function WhyChoose() {
           <div className="col-lg-6">
             <div className="why-choose-us-img-wrap">
               <div className="why-choose-us-img-1 text-start">
-                <img src="assets/img/others/1.jpg" alt="Image1" />
+                <img src="assets/img/daikyo/parts-1.jpg" alt="Image1" />
               </div>
               <div className="why-choose-us-img-2 text-end">
-                <img src="assets/img/others/2.jpg" alt="Image2" />
+                <img src="assets/img/daikyo/parts-2.jpg" alt="Image2" />
               </div>
             </div>
           </div>

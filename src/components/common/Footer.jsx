@@ -42,42 +42,44 @@ function Footer() {
             </div>
             <div className="col-xl-5 col-md-7">
               <div className="footer-widget footer-menu-widget footer-menu-widget-2-column clearfix">
-                <h4 className="footer-title">Services.</h4>
+                <h4 className="footer-title">Export Service Countries.</h4>
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <a href="service.html">Engine Diagnostics</a>
+                      <a href="#">KENYA</a>
                     </li>
                     <li>
-                      <a href="service.html">Vehicles Damaged</a>
+                      <a href="#">ENGLAND</a>
                     </li>
                     <li>
-                      <a href="service.html">Air Conditioning Evac</a>
+                      <a href="#">IRELAND</a>
                     </li>
                     <li>
-                      <a href="service.html">Anti Lock Brake Service</a>
+                      <a href="#">PAKISTAN</a>
                     </li>
                     <li>
-                      <a href="service.html">Computer Diagnostics</a>
+                      <a href="#">AUSTRALIA</a>
                     </li>
-                    <li>
-                      <a href="service.html">Performance Upgrades</a>
-                    </li>
+                    
                   </ul>
                 </div>
-                <div className="footer-menu">
+                <div className="footer-menu d-none d-xl-block">
+                  
                   <ul>
                     <li>
-                      <a href="service.html">Car Wash & Cleaning</a>
+                      <a href="#">from Japan</a>
                     </li>
                     <li>
-                      <a href="service.html">Choose your Repairs</a>
+                      <a href="#">from Japan</a>
                     </li>
                     <li>
-                      <a href="service.html">Free Consultancy</a>
+                      <a href="#">from Japan</a>
                     </li>
                     <li>
-                      <a href="service.html">Emergency Time</a>
+                      <a href="#">from Japan</a>
+                    </li>
+                    <li>
+                      <a href="#">from Japan</a>
                     </li>
                   </ul>
                 </div>
@@ -85,18 +87,18 @@ function Footer() {
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="footer-widget footer-blog-widget">
-                <h4 className="footer-title">News Feeds.</h4>
+                <h4 className="footer-title">Contact Us</h4>
                 <div className="ltn__footer-blog-item">
                   <div className="ltn__blog-meta">
                     <ul>
                       <li className="ltn__blog-date">
-                        <i className="far fa-calendar-alt"></i> June 24, 2020
+                        <i className="fas fa-phone-alt"></i> Phone
                       </li>
                     </ul>
                   </div>
                   <h4 className="ltn__blog-title">
-                    <a href="blog-details.html">
-                      The branch of biology that deals with the normal.
+                    <a href="tel:+81 52-387-9911">
+                    +81 52-387-9911
                     </a>
                   </h4>
                 </div>
@@ -104,13 +106,13 @@ function Footer() {
                   <div className="ltn__blog-meta">
                     <ul>
                       <li className="ltn__blog-date">
-                        <i className="far fa-calendar-alt"></i> June 28, 2020
+                        <i className="fas fa-phone-alt"></i> Phone
                       </li>
                     </ul>
                   </div>
                   <h4 className="ltn__blog-title">
-                    <a href="blog-details.html">
-                      Electric Car Maintenance, Servicing & Repairs
+                    <a href="tel:+81 52-387-9911">
+                    +81 52-387-9911
                     </a>
                   </h4>
                 </div>
@@ -118,13 +120,27 @@ function Footer() {
                   <div className="ltn__blog-meta">
                     <ul>
                       <li className="ltn__blog-date">
-                        <i className="far fa-calendar-alt"></i> June 24, 2020
+                        <i className="fas fa-envelope"></i> Email
                       </li>
                     </ul>
                   </div>
                   <h4 className="ltn__blog-title">
-                    <a href="blog-details.html">
-                      The branch of biology that deals with the normal.
+                    <a href="mailto:aaa@aa.com">
+                      example@example.com
+                    </a>
+                  </h4>
+                </div>
+                <div className="ltn__footer-blog-item">
+                  <div className="ltn__blog-meta">
+                    <ul>
+                      <li className="ltn__blog-date">
+                        <i className="fas fa-envelope"></i> Email
+                      </li>
+                    </ul>
+                  </div>
+                  <h4 className="ltn__blog-title">
+                    <a href="mailto:aaa@aa.com">
+                      example@example.com
                     </a>
                   </h4>
                 </div>
@@ -136,7 +152,7 @@ function Footer() {
       <div className="ltn__copyright-area ltn__copyright-2">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-12">
+            <div className="col-12 ">
               <div className="site-logo-wrap">
                 <div className="site-logo">
                   <a href="index.html">
@@ -145,29 +161,15 @@ function Footer() {
                 </div>
                 <div className="get-support ltn__copyright-design clearfix">
                   <div className="get-support-info">
-                    <h6>Copyright & Design By</h6>
+                    <h6>Copyrights @ 2024</h6>
                     <h4>
-                      Example - <span className="current-year"></span>
+                      Daikyo Motors pvt Limited <span className="current-year"></span>
                     </h4>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-12 align-self-center">
-              <div className="ltn__copyright-menu text-end">
-                <ul>
-                  <li>
-                    <a href="#">Terms & Conditions</a>
-                  </li>
-                  <li>
-                    <a href="#">Claim</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy & Policy</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>

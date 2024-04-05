@@ -7,24 +7,34 @@ function Porfolio() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 600,
-    slidesToShow: 4,
+    speed: 500,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768, // Defines the maximum width for this setting
+        settings: {
+          slidesToShow: 1, // On screens smaller than 768px, show 1 slide
+          slidesToScroll: 1,
+        }
+      }
+      // You can add more breakpoints here if needed
+    ]
   };
 
   return (
-    <div className="ltn__img-slider-area ltn__img-slider-2 section-bg-1 pt-115 pb-250">
+    <div className="ltn__img-slider-area ltn__img-slider-2 section-bg-1 pt-5 pb-115">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="section-title-area ltn__section-title-2 text-center">
               <h6 className="section-subtitle ltn__secondary-color">
-                Portfolio
+                Recently
               </h6>
               <h1 className="section-title">
-                We Have Done<span>.</span>
+                Imported Vehicles<span>.</span>
               </h1>
             </div>
           </div>
@@ -38,43 +48,57 @@ function Porfolio() {
           >
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/1.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/1.jpg" alt="Image1" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-1.jpg" alt="Image1" />
                 </a>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/2.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/2.jpg" alt="Image2" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-2.jpg" alt="Image2" />
                 </a>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/3.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/3.jpg" alt="Image3" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-3.jpg" alt="Image3" />
                 </a>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/4.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/4.jpg" alt="Image4" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-4.jpg" alt="Image4" />
                 </a>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/1.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/1.jpg" alt="Image5" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-5.jpg" alt="Image5" />
                 </a>
               </div>
             </div>
             <div className="col-lg-12">
               <div className="ltn__img-slide-item-2">
-                <a href="img/img-slide/2.jpg" data-rel="lightcase:myCollection">
-                  <img src="assets/img/img-slide/2.jpg" alt="Image6" />
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-6.jpg" alt="Image6" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__img-slide-item-2">
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-7.jpg" alt="Image6" />
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="ltn__img-slide-item-2">
+                <a href="#" data-rel="lightcase:myCollection">
+                  <img src="assets/img/daikyo/import-8.jpg" alt="Image6" />
                 </a>
               </div>
             </div>{" "}

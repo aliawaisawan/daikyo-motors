@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="ltn__about-us-area pt-80 pb-85">
+    <div id='import-process' className="ltn__about-us-area pt-80 pb-85">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 align-self-center">
@@ -17,32 +17,32 @@ function AboutUs() {
                 <li className="layer" data-depth="0.00"></li>
                 <li className="layer" data-depth="0.10">
                   <div className="ltn__effect-img ltn__effect-img-top-left">
-                    <img src="assets/img/effect/1.png" alt="#" />
+                    <img src="assets/img/daikyo/about-1.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.30">
                   <div className="ltn__effect-img ltn__effect-img-top-right">
-                    <img src="assets/img/effect/2.png" alt="#" />
+                    <img src="assets/img/daikyo/about-2.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.50">
                   <div className="ltn__effect-img ltn__effect-img-center-left">
-                    <img src="assets/img/effect/3.png" alt="#" />
+                    <img src="assets/img/daikyo/about-3.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.20">
                   <div className="ltn__effect-img ltn__effect-img-center-right">
-                    <img src="assets/img/effect/4.png" alt="#" />
+                    <img src="assets/img/daikyo/about-4.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.20">
                   <div className="ltn__effect-img ltn__effect-img-bottom-left">
-                    <img src="assets/img/effect/5.png" alt="#" />
+                    <img src="assets/img/daikyo/about-5.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.20">
                   <div className="ltn__effect-img ltn__effect-img-bottom-right">
-                    <img src="assets/img/effect/6.png" alt="#" />
+                    <img src="assets/img/daikyo/about-6.jpg" alt="#" />
                   </div>
                 </li>
                 <li className="layer" data-depth="0.50">
@@ -68,22 +68,19 @@ function AboutUs() {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  About Us
+                  The Process
                 </h6>
                 <h1 className="section-title">
-                  Get Amazing Service From Us<span>.</span>
+                  How does it work?<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                If you have any vehicle in mind and a budget ready, give Daikyo Motors a call at +81 52-387-9911 
                 </p>
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim ven iam, quis nostrud exercitation ullamco laboris
-                nisi{" "}
+              We begin searching for your chosen vehicle. We have contacts in the Whole Country and can help source your vehicle from anywhere in Japan!
+              We handle all the paperwork and organise all the export, shipping, import and compliance for you. You will be driving your new vehicle within 16-20 weeks.
               </p>
               <hr />
               <div className="about-call-us">
@@ -92,9 +89,9 @@ function AboutUs() {
                 </div>
                 <div className="call-us-info">
                   <p>
-                    Call us 24/7. We can answer for{" "}
+                    Call us 24/7, and let us answer{" "}
                     <a
-                      href="contact.html"
+                      
                       className="ltn__secondary-color text-decoration"
                     >
                       <strong>all your questions</strong>
@@ -102,9 +99,8 @@ function AboutUs() {
                     .
                   </p>
                   <h2>
-                    <a href="tel:+123456789">507-452-1254</a>{" "}
-                    <small> or </small>{" "}
-                    <a href="tel:+123456789">508-452-1253</a>
+                    <a href="tel:+81 52-387-9911">+81 52-387-9911</a>{" "}
+                   
                   </h2>
                 </div>
               </div>

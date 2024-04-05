@@ -7,7 +7,7 @@ function GetQuote() {
         <div className="row">
           <div className="col-lg-12">
             <div className="ltn__form-box contact-form-box box-shadow white-bg">
-              <h4 className="title-2">Get A Quote</h4>
+              <h4 className="title-2">Enquire Now</h4>
               <form
                 id="contact-form"
                 action="https://tunatheme.com/tf/html/autixir-preview/autixir/mail.php"
@@ -15,7 +15,7 @@ function GetQuote() {
               >
                 <div className="row">
                   <div className="col-md-6">
-                    <div className="input-item input-item-name ltn__custom-icon">
+                    <div className="input-item input-item-name ">
                       <input
                         type="text"
                         name="name"
@@ -24,7 +24,7 @@ function GetQuote() {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <div className="input-item input-item-email ltn__custom-icon">
+                    <div className="input-item input-item-email ">
                       <input
                         type="email"
                         name="email"
@@ -33,18 +33,7 @@ function GetQuote() {
                     </div>
                   </div>
                   <div className="col-md-6">
-                    <div className="input-item">
-                      <select className="nice-select">
-                        <option>Select Service Type</option>
-                        <option>Car Repair </option>
-                        <option>Engine Repairing </option>
-                        <option>Oil Change</option>
-                        <option>Car Wash</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="input-item input-item-phone ltn__custom-icon">
+                    <div className="input-item input-item-phone ">
                       <input
                         type="text"
                         name="phone"
@@ -52,25 +41,67 @@ function GetQuote() {
                       />
                     </div>
                   </div>
+                  <div className="col-md-6">
+                    <div className="input-item input-item-phone ">
+                      <input
+                        type="text"
+                        name="phone"
+                        placeholder="Make of the Vehicle"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="input-item input-item-name ">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Model of the Vehicle"
+                      />
+                    </div>
+                  </div>
+                 
+                  <div className="col-md-6">
+                    <div className="input-item input-item-name ">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Manufacture Year"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="input-item input-item-name ">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Budget"
+                      />
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="input-item input-item-name ">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Ready to Buy?"
+                      />
+                    </div>
+                  </div>
+                  
                 </div>
-                <div className="input-item input-item-textarea ltn__custom-icon">
+                <div className="input-item input-item-textarea ">
                   <textarea
                     name="message"
-                    placeholder="Enter message"
+                    placeholder="Leave any extra details you would like to share!"
                   ></textarea>
                 </div>
-                <p>
-                  <label className="input-info-save mb-0">
-                    <input type="checkbox" name="agree" /> Save my name, email,
-                    and website in this browser for the next time I comment.
-                  </label>
-                </p>
+               
                 <div className="btn-wrapper mt-0">
                   <button
                     className="btn theme-btn-1 btn-effect-1 text-uppercase"
                     type="submit"
                   >
-                    get an free service
+                    Send Enquiry
                   </button>
                 </div>
                 <p className="form-messege mb-0 mt-20"></p>

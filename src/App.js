@@ -3,28 +3,28 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import MyAccount from "./pages/MyAccount";
-import Wishlist from "./pages/Wishlist";
-import Services from "./pages/Services";
-import Shop from "./pages/Shop";
-import ProductDetails from "./pages/ProductDetails";
-import ShopCar from "./pages/ShopCar";
-import CarDetails from "./pages/CarDetails";
-import Cart from "./pages/Cart";
-import Checkout from "./pages/Checkout";
-import OrderTracking from "./pages/OrderTracking";
+// import Login from "./pages/Login";
+// import Register from "./pages/Register";
+// import MyAccount from "./pages/MyAccount";
+// import Wishlist from "./pages/Wishlist";
+// import Services from "./pages/Services";
+// import Shop from "./pages/Shop";
+// import ProductDetails from "./pages/ProductDetails";
+// import ShopCar from "./pages/ShopCar";
+// import CarDetails from "./pages/CarDetails";
+// import Cart from "./pages/Cart";
+// import Checkout from "./pages/Checkout";
+// import OrderTracking from "./pages/OrderTracking";
 import Error from "./pages/Error";
-import Faq from "./pages/Faq";
-import Team from "./pages/Team";
-import TeamDetails from "./pages/TeamDetails";
-import ServicesDetails from "./pages/ServicesDetails";
-import Portfolio from "./pages/Portfolio";
-import PortfolioDetails from "./pages/PortfolioDetails";
-import Appointment from "./pages/Appointment";
-import News from "./pages/News";
-import NewsDetails from "./pages/NewsDetails";
+// import Faq from "./pages/Faq";
+// import Team from "./pages/Team";
+// import TeamDetails from "./pages/TeamDetails";
+// import ServicesDetails from "./pages/ServicesDetails";
+// import Portfolio from "./pages/Portfolio";
+// import PortfolioDetails from "./pages/PortfolioDetails";
+// import Appointment from "./pages/Appointment";
+// import News from "./pages/News";
+// import NewsDetails from "./pages/NewsDetails";
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about-us" element={<AboutUs />} />
         <Route exact path="/contact-us" element={<ContactUs />} />
-        <Route exact path="/login" element={<Login />} />
+        {/* <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/my-account" element={<MyAccount />} />
         <Route exact path="/wishlist" element={<Wishlist />} />
@@ -53,7 +53,7 @@ function App() {
         <Route exact path="/Portfolio-details" element={<PortfolioDetails />} />
         <Route exact path="/appointment" element={<Appointment />} />
         <Route exact path="/news" element={<News />} />
-        <Route exact path="/news-details" element={<NewsDetails />} />
+        <Route exact path="/news-details" element={<NewsDetails />} /> */}
 
         <Route exact path="*" element={<Error />} />
       </Routes>

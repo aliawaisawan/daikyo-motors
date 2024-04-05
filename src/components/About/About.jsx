@@ -7,7 +7,7 @@ function About() {
         <div className="row">
           <div className="col-lg-6 align-self-center">
             <div className="about-us-img-wrap about-img-left">
-              <img src="assets/img/team/4.jpg" alt="About Us Image1" />
+              <img src="assets/img/daikyo/about-main.jpg" alt="About Us Image1" />
               <div className="about-us-img-info about-us-img-info-2">
                 <div className="about-us-img-info-inner">
                   <h1>
@@ -23,22 +23,18 @@ function About() {
             <div className="about-us-info-wrap">
               <div className="section-title-area ltn__section-title-2">
                 <h6 className="section-subtitle ltn__secondary-color">
-                  bout Us
+                  About Us
                 </h6>
                 <h1 className="section-title">
-                  Safety Is Our First & Main Priority<span>.</span>
+                  We are the number one importers<span>.</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore
+                  we are in this business since 2014, we have contacts all over the world!
                 </p>
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipis icing elit, sed
-                do eius mod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad min im veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequ at.{" "}
+                daikyo motors was found in etc etc ..........................{" "}
               </p>
               <div className="btn-wrapper">
                 <a href="service.html" className="theme-btn-3 btn btn-effect-4">

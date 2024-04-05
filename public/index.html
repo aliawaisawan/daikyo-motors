@@ -26,8 +26,26 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script src="%PUBLIC_URL%/assets/js/plugins.js"></script>
-    <!-- Main JS -->
     <script src="%PUBLIC_URL%/assets/js/main.js"></script>
+    <script>
+      function loadScript(src, callback) {
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = src;
+        script.onload = callback;
+        script.onerror = function () {
+          console.error('The script ' + src + ' is not accessible.');
+        };
+        document.head.appendChild(script);
+      }
+    
+        loadScript('%PUBLIC_URL%/assets/js/plugins.js', function () {
+        console.log('js has been loaded!');
+       
+       
+      })
+
+     
+    </script>
   </body>
 </html>

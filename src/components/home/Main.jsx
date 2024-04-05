@@ -14,6 +14,7 @@ import CallAction from "./CallAction";
 import Testimonials from "./Testimonials";
 import Blogs from "./Blogs";
 import Logos from "./Logos";
+import GetQuote from "../contact/GetQuote";
 
 function Main() {
   return (
@@ -22,16 +23,10 @@ function Main() {
       <Hero />
       <AboutUs />
       <WhyChoose />
-      <OurPrice />
-      <Services />
-      <CarDeals />
-      <Banner />
-      <Benefits />
       <Porfolio />
-      <CallAction />
+      <GetQuote/>
+      <Services />
       <Testimonials />
-      <Blogs />
-      <Logos />
       <Footer />
     </div>
   );
