@@ -1,7 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+  const openMobileMenu = (e) => {
+    e.preventDefault();
+    setIsMobileMenuOpen(true);
+  };
+  const closeMobileMenu = (e) => {
+    e.preventDefault();
+    setIsMobileMenuOpen(false);
+  };
   return (
     <>
       <header className="ltn__header-area ltn__header-4 ltn__header-6 ltn__header-transparent gradient-color-2">
@@ -11,9 +21,9 @@ function Header() {
               <div className="col">
                 <div className="site-logo-wrap">
                   <div className="site-logo">
-                    <Link to="/">
+                    <a href="/">
                       <img src="assets/img/logo-2.png" alt="Logo" />
-                    </Link>
+                    </a>
                   </div>
                   <div className="get-support clearfix get-support-color-white">
                     <div className="get-support-icon">
@@ -46,10 +56,10 @@ function Header() {
                         
                         
                         <li>
-                          <a href="/contact-us">Contact Us</a>
+                          <Link to="/contact-us">Contact Us</Link>
                         </li>
                         <li>
-                          <a href="/about-us">About</a>
+                          <Link to="/about-us">About</Link>
                         </li>
                       
                         
@@ -60,7 +70,7 @@ function Header() {
               </div>
               <div class="ltn__header-options ltn__header-options-2">                    
                         <div class="mobile-menu-toggle d-xl-none">
-                            <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
+                        <a href="#ltn__utilize-mobile-menu" className="ltn__utilize-toggle" onClick={openMobileMenu}>
                                 <svg viewBox="0 0 800 600">
                                     <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
                                     <path d="M300,320 L540,320" id="middle"></path>
@@ -78,16 +88,14 @@ function Header() {
 
       <div
         id="ltn__utilize-mobile-menu"
-        className="ltn__utilize ltn__utilize-mobile-menu"
+        className={`ltn__utilize ltn__utilize-mobile-menu ${isMobileMenuOpen ? "ltn__utilize-open" : ""}`}
       >
         <div className="ltn__utilize-menu-inner ltn__scrollbar">
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
-              <a href="index.html">
-                <img src="assets/img/logo.png" alt="Logo" />
-              </a>
+              
             </div>
-            <button className="ltn__utilize-close">×</button>
+            <button className="ltn__utilize-close" onClick={closeMobileMenu}>×</button>
           </div>
           
           <div className="ltn__utilize-menu">
@@ -105,10 +113,10 @@ function Header() {
                         
                         
                         <li>
-                          <a href="/contact-us">Contact Us</a>
+                          <Link to="/contact-us">Contact Us</Link>
                         </li>
                         <li>
-                          <a href="/about-us">About</a>
+                          <Link to="/about-us">About</Link>
                         </li>
                       
                         
@@ -142,7 +150,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="ltn__utilize-overlay"></div>
+      {isMobileMenuOpen && <div className="ltn__utilize-overlay" onClick={closeMobileMenu}></div>}
     </>
   );
 }

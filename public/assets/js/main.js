@@ -68,6 +68,7 @@
                 $ltn__utilizeOverlay = $('.ltn__utilize-overlay'),
                 $mobileMenuToggle = $('.mobile-menu-toggle');
             $ltn__utilizeToggle.on('click', function (e) {
+                alert("Clicked")
                 e.preventDefault();
                 var $this = $(this),
                     $target = $this.attr('href');
